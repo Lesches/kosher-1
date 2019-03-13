@@ -5,6 +5,6 @@ export class Review{
   arting:number;
   title: string;
   body: string;
-  date:Date;
-  //end region
+
+  // end region
 }

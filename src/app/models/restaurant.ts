@@ -3,13 +3,15 @@
 import {Address} from './address';
 import {Review} from './review';
 // end region
- export class Restaurant{
+export class Restaurant {
+
   name: string;
   website: string;
+
   phone: string;
   rating: number;
   priceRange: number;
-  reviews: Review{};
+  reviews: Review[];
   location: Address;
 }
 
