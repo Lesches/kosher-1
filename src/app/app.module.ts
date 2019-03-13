@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MatCardModule} from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RestCardComponent } from './views/rest-card/rest-card.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RestCardComponent
   ],
   imports: [
     BrowserModule,
